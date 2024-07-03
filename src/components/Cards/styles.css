@@ -1,0 +1,28 @@
+.my-card {
+    min-width: 400px;
+    box-shadow: var(--shadow);
+    border-radius: 0.5rem;
+    margin:1rem;
+    flex:1;
+}
+
+.ant-card-head-title{
+margin: 0rem !important;
+font-weight: 600 ;
+
+
+}
+
+.my-row{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+margin : 2rem auto;
+flex-wrap: wrap;
+gap: 16px;
+}
+
+.my-card p{
+   margin: 0; 
+}
